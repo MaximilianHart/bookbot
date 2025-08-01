@@ -10,7 +10,7 @@ It simply iterates through the file and does some conversion and sorting between
 
 To run BookBot:
 
-1. Clone the repo
+### 1. Clone the repo
 
 Navigate to where you want the BookBot folder to live and run:
 
@@ -19,7 +19,7 @@ git clone https://github.com/maximilianhart/bookbot
 cd bookbot
 ```
 
-2. Grab a text file to analyze:
+### 2. Grab a text file to analyze:
 
 We'll use Pride & Prejudice because it's a fantastic book:
 
@@ -27,10 +27,12 @@ We'll use Pride & Prejudice because it's a fantastic book:
 curl https://www.gutenberg.org/cache/epub/1342/pg1342.txt > ./books/prideandprejudice.txt
 ```
 
-3. Run the program!
+### 3. Run the program!
 
 ```bash
 python3 main.py ./books/prideandprejudice.txt
 ```
 
-4. Profit! Somehow.
+### 4. Profit! Somehow.
+
+![](./static/demo.jpg)
