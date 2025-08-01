@@ -24,6 +24,7 @@ cd bookbot
 We'll use Pride & Prejudice because it's a fantastic book:
 
 ```bash
+mkdir books
 curl https://www.gutenberg.org/cache/epub/1342/pg1342.txt > ./books/prideandprejudice.txt
 ```
 
