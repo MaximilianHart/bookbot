@@ -4,10 +4,11 @@ new_dict = {}
 
 
 def get_num_words(file_path):
+    print("----------- Word Count ----------")
     with open(file_path) as f:
         file_contents = f.read()
         num_words = len(file_contents.split())
-        print(f"{num_words} words found in the document")
+        print(f"Found {num_words} total words")
 
 
 def get_letters(file_path):
@@ -26,6 +27,7 @@ def sort_on(items):
 
 
 def sort_dict():
+    print("--------- Character Count -------")
     for char in letters_dict:
         if char.isalpha():
             num = letters_dict[char]
